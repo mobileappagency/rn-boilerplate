@@ -43,7 +43,16 @@
   },
   "standard": {
     "parser": "babel-eslint",
-    "globals": [ "it", "describe", "expect", "jest" ],
+    "globals": [
+      "afterAll",
+      "afterEach", 
+      "beforeAll",
+      "beforeEach", 
+      "it", "test", 
+      "describe", 
+      "expect", 
+      "jest" 
+    ],
     "plugins": [
       "flowtype"
     ]
