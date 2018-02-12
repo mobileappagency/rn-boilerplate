@@ -43,6 +43,7 @@
   },
   "standard": {
     "parser": "babel-eslint",
+    "globals": [ "it", "describe", "expect", "jest" ],
     "plugins": [
       "flowtype"
     ]
